@@ -1,0 +1,5127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style1.css" rel="stylesheet">
+	<script>
+			var i=1;
+			function fill()
+			{
+				if(i%2)
+					document.getElementById("sidebar").style.display="block";
+				else
+					document.getElementById("sidebar").style.display="none";
+				i++;
+			}
+			</script>
+</head>
+
+<body style=" overflow:hidden">
+
+	<!--nav-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="height:auto;">
+		<div class="container-fluid">
+			<img class="nav-brand rounded-circle" src="images/navv.jpg" style="height:50px; ">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NAV">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="NAV">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact US</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!----->
+<br>
+	<div class="container-fluid" style="height:100vh; overflow:hidden;">
+		<div class="row">
+			<div class="col-md-2 col-xs-4 col-sm-4" style="height: 100vh; overflow:auto;" id="sidebar">
+				<div class="row" style="padding-bottom:4px; border-bottom: 0.5px solid black">
+					<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Themes</h4>
+					<div class="container-fluid">
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Hill Stations
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Beaches
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Trekking
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Road Trips
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Honeymoon
+							</label>
+						</div>
+
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Adventure
+							</label>
+						</div>
+
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Wildlife
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Water Activities
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Nature
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Deserts
+							</label>
+						</div>
+						<div class="form-check Sidebar">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-check-input" value="">Heritage
+							</label>
+						</div>
+					</div>
+
+
+				</div>
+				<br>
+				<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+						<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Region</h4>
+						<div class="container-fluid">
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">Across Country
+								</label>
+							</div>
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">North India
+								</label>
+							</div>
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">South India
+								</label>
+							</div>
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">East India
+								</label>
+							</div>
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">West India
+								</label>
+							</div>
+	
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">Central India
+								</label>
+							</div>
+	
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">North-East
+								</label>
+							</div>
+							<div class="form-check Sidebar">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" value="">International
+								</label>
+							</div>
+							
+						</div>
+	
+	
+					</div>
+					<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Activities</h4>
+							<div class="container-fluid">
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Water Sports
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Trekking
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Snow Sport
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Extreme Sport
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Adventures
+									</label>
+								</div>
+		
+								
+		
+								
+								
+								
+							</div>
+		
+		
+						</div>
+
+						<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Best Time of Visit</h4>
+							<div class="container-fluid">
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Jan
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Feb
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">March
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">April
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">May
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+										<label class="form-check-label">
+											<input type="checkbox" class="form-check-input" value="">June
+										</label>
+									</div>
+									<div class="form-check Sidebar">
+											<label class="form-check-label">
+												<input type="checkbox" class="form-check-input" value="">July
+											</label>
+										</div>
+										<div class="form-check Sidebar">
+												<label class="form-check-label">
+													<input type="checkbox" class="form-check-input" value="">August
+												</label>
+											</div>
+											<div class="form-check Sidebar">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-check-input" value="">Sep
+													</label>
+												</div>
+												<div class="form-check Sidebar">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">Oct
+														</label>
+													</div>
+													<div class="form-check Sidebar">
+															<label class="form-check-label">
+																<input type="checkbox" class="form-check-input" value="">Nov
+															</label>
+														</div>
+														<div class="form-check Sidebar">
+																<label class="form-check-label">
+																	<input type="checkbox" class="form-check-input" value="">Dec
+																</label>
+															</div>
+		
+								
+		
+								
+								
+								
+							</div>
+		
+		
+						</div>
+
+						<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Popularity</h4>
+							<div class="container-fluid">
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Must Visit
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">You call
+									</label>
+								</div>
+								
+								
+		
+								
+		
+								
+								
+								
+							</div>
+		
+		
+						</div>
+
+						<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Places</h4>
+							<div class="container-fluid">
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Goa
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Delhi
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Manali
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Shimla
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input" value="">Kashmir
+									</label>
+								</div>
+								<div class="form-check Sidebar">
+										<label class="form-check-label">
+											<input type="checkbox" class="form-check-input" value="">Chennai
+										</label>
+									</div>
+									<div class="form-check Sidebar">
+											<label class="form-check-label">
+												<input type="checkbox" class="form-check-input" value="">Hyderabad
+											</label>
+										</div>
+										<div class="form-check Sidebar">
+												<label class="form-check-label">
+													<input type="checkbox" class="form-check-input" value="">Mumbai
+												</label>
+											</div>
+											<div class="form-check Sidebar">
+													<label class="form-check-label">
+														<input type="checkbox" class="form-check-input" value="">Pune
+													</label>
+												</div>
+												<div class="form-check Sidebar">
+														<label class="form-check-label">
+															<input type="checkbox" class="form-check-input" value="">Kerala
+														</label>
+													</div>
+													<div class="form-check Sidebar">
+															<label class="form-check-label">
+																<input type="checkbox" class="form-check-input" value="">Andaman
+															</label>
+														</div>
+														<div class="form-check Sidebar">
+																<label class="form-check-label">
+																	<input type="checkbox" class="form-check-input" value="">Rajasthan
+																</label>
+															</div>
+															<div class="form-check Sidebar">
+																	<label class="form-check-label">
+																		<input type="checkbox" class="form-check-input" value="">Ladakh
+																	</label>
+																</div>
+																<div class="form-check Sidebar">
+																		<label class="form-check-label">
+																			<input type="checkbox" class="form-check-input" value="">Uttarakhand
+																		</label>
+																	</div>
+																	<div class="form-check Sidebar">
+																			<label class="form-check-label">
+																				<input type="checkbox" class="form-check-input" value="">Karnataka
+																			</label>
+																		</div>
+		
+								
+		
+								
+								
+								
+							</div>
+		
+		
+						</div>
+
+						<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Budget</h4>
+							<div class="container-fluid">
+									<div class="form-group">
+										
+											<select class="form-control" id="sel1">
+											  <option>Less than Rs. 5000</option>
+											  <option>Rs.5000-10000</option>
+											  <option>Rs.10000-15000</option>
+											  <option>Rs.15000-20000</option>
+											  <option>Rs.20000-25000</option>
+											  <option>Rs.25000-3500</option>
+											  <option>Rs.35000-55000</option>
+											</select>
+										  </div>
+							</div>
+		
+		
+						</div>
+
+						<br>
+					<div class="row" style="border-bottom: 0.5px solid black; padding-bottom:4px">
+							<h4 class="Sidebar" style="color:rgb(255, 71, 5);">Days</h4>
+							<div class="container-fluid">
+									<div class="form-group">
+										
+											<select class="form-control" id="sel1">
+											  <option>0-2 Days</option>
+											  <option>3-5 Days</option>
+											  <option>6-9 Days</option>
+											  <option>10-13 Days</option>
+											  <option>14-17 Days</option>
+											  <option>18+ Days</option>
+											</select>
+										  </div>
+							</div>
+		
+		
+						</div>
+
+				</div>
+				<div class="col-lg-10 col-xs-8 col-sm-8 " style="overflow: auto; height:100vh;">
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">1.Agra,Uttar Pradesh</div>
+								<img class="card-img-top" src="images/agra.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna
+										river in the Indian city of Agra. It also houses the tomb of Shah Jahan, the
+										builder.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header"> 2. Darjeeling, West Bengal </div>
+								<img class="card-img-top" src="images/darjeeling.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Household name because of its varieties of teas, Darjeeling is a hill station
+										with
+										vast expanses of tea estates and Tibetan influence in their craft, culture and
+										cuisine.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+
+						<div class="col-xs-12 col-md-4 mb-3">
+							<div class="card">
+								<div class="card-header">3. Gangtok, Sikkim </div>
+								<img class="card-img-top" src="images/gangtok.jpg">
+
+								<button class="btn btn-success rating ">
+									<h6>4.3</h6>
+								</button>
+
+
+
+
+								<div class="card-body">
+									<h6 class="card-title">Known For : <a href="#">Nathu La Pass</a> | <a href="#">MG
+											Road,
+											Gangtok</a> | <a href="#">Rumtek Monastery</a></h6>
+									<div class="card-text"><a href="#"><label class="labels">Packages</label></a> <label
+											class="labels">Hotel</label></a> <label class="labels">Flight</label></a>
+										<label class="labels">Activities</label></a>
+										<label class="labels">Food</label></a><br>
+										<span class="activities"> <strong
+												style="color: rgb(238, 20, 20);">ACTIVITIES-</strong> Water Sports,
+											Trekking, Snow Sport</span>
+										<strong>
+											<p
+												style="margin-top:0px; margin-bottom:1px; border-bottom: 0.5px solid black; ">
+												Best Time: Throughout the year</p>
+										</strong>
+									</div>
+									<p>Prettily situated on a hillock at an altitude of 1800 meters, Gangtok can be
+										safely
+										said to be one of the most beautiful hill stations in the country.</p>
+									<a class="btn btn-primary" href="#">Know More</a>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+
+				</div>
+			</div>
+			
+			<button class="btn btn-primary " onclick="fill()" style="border-radius: 50%; height:60px; width:60px; position:absolute; bottom:0px; right:20px; ">Filter</button>		
+</div>
+
+			
+</body>
+
+</html>

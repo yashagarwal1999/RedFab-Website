@@ -1,0 +1,93 @@
+.Sidebar
+{
+display:block;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.form-check-input{
+    size: 50px;
+    transform: scale(1.5);
+}
+
+/* input[type="checkbox"]+label:before 
+{
+    background-color: rgb(255, 71, 5);
+}
+input[type="checkbox"]:checked + label:before {
+    background:rgb(255, 71, 5);
+    color: #333;
+    
+  }
+
+  input[type="checkbox"]:checked + label:after {
+    
+  } */
+
+.card
+{
+    height:100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height:20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 71, 5); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(156, 48, 9); 
+  }
+.rating
+{
+    position:absolute;
+    top:50px;
+    right:0px;    
+
+}
+.btn-primary:hover{
+    background-color:rgb(156, 48, 9);
+    border-color: rgb(156, 48, 9);
+}
+.activities
+{
+    font-size: 0.8rem;
+}
+
+.labels
+{
+    background-color: rgba(224, 219, 219, 0.952);
+    color:black;
+}
+
+.btn-primary
+{
+    background-color:rgb(255, 71, 5);
+    border-color:rgb(255, 71, 5);
+}
+.card-title
+{
+    border-bottom: 0.5px solid black;
+ padding-bottom: 5px;   
+}
+
+@media (max-width: 992px) {
+
+
+     
+    }
+    @media (max-width: 768px) {
+   
+    
+    
+    }
+    @media (max-width: 576px) {
+    }
